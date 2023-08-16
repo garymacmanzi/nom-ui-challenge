@@ -1,0 +1,31 @@
+{
+  "name": "nom-ui-challenge",
+  "version": "1.0.0",
+  "description": "Nominet UI challenge code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "latest",
+    "@cypress/webpack-preprocessor": "latest",
+    "cypress": "latest",
+    "ts-loader": "latest",
+    "typescript": "latest",
+    "webpack": "latest"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "latest",
+    "@cypress/webpack-preprocessor": "latest",
+    "cypress": "latest",
+    "ts-loader": "latest",
+    "typescript": "latest",
+    "webpack": "latest"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "stepDefinitions": "cypress/e2e/step-definitions/**/*.ts"
+  }
+}
